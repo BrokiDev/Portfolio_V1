@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio V1</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header id="inicio">
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"><h3>BrokiDev</h3></a>
+        </div>
+
+        <nav class="navegacion">
+          <ul class="links">
+            <li>
+              <a href="#inicio" class="seleccionado" onclick="seleccionar(this)"
+                >Inicio</a
+              >
+            </li>
+            <li><a href="#sobremi" onclick="seleccionar(this)">Sobre Mi</a></li>
+            <li>
+              <a href="#habilidades" onclick="seleccionar(this)">Habilidades</a>
+            </li>
+            <li>
+              <a href="#contacto" onclick="seleccionar(this)">Contacto</a>
+            </li>
+
+            <div class="iconos">
+              <i onclick="darkMode()"
+                ><img
+                  src="./multimedia/icon_dark_mode.png"
+                  alt="icon-dark-mode"
+              /></i>
+
+              <i
+                ><a href="https://github.com/BrokiDev" target="_blank"
+                  ><img
+                    src="./multimedia/icon_github.png"
+                    alt="icon_Github" /></a
+              ></i>
+              <i
+                ><a
+                  href="https://www.linkedin.com/in/bryan-ramirez-ogando/"
+                  target="_blank"
+                  ><img
+                    src="./multimedia/icon_linkedin.png"
+                    alt="icon-LinkedIn" /></a
+              ></i>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="centered section push">
+      <div class="content-section">
+        <p class="spanish">Bienvenidos</p>
+        <h1 class="text-centrado spanish">Hola Soy Bryan Ramirez</h1>
+        <p class="english">Welcome</p>
+        <h1 class="text-centrado english">Hi, I'm Bryan Ramirez.</h1>
+        <p class="text-centrado spanish">
+          Soy Jr Web-Developer Full-Stack si tienes algo en mente ponte en
+          contacto conmigo y puedo ayudarte
+        </p>
+
+        <p class="text-centrado english">
+          I am Jr Web-Developer Full-Stack if you have something in mind please
+          contact me contact me and i can help you
+        </p>
+        <a href="#contacto">Contact me</a>
+      </div>
+    </section>
+
+    <main>
+      <section id="sobremi">
+        <h2 class="text-centrado">About Me</h2>
+        <div class="contenido">
+          <img src="./multimedia/image_me.jpg" alt="Imagen Perfil background" />
+          <div class="biography">
+            <h2>Bryan Ramirez Ogando</h2>
+            <h3>Full Stack Developer</h3>
+
+            <p class="english">
+              Self-taught, highly motivated and oriented Full Stack student
+              achieve excellent results in the development sector Web, I am
+              interested in developing myself as a professional in the area and
+              I am looking for opportunities and experiences that allow me to do
+              so. I have worked with technologies like HTML, CSS, SASS,
+              JAVASCRIPT, PHP, PYTHON. Some of them are not my forte but the
+              experience or the project requires them I can further strengthen
+              my knowledge
+            </p>
+            <br />
+            <p class="spanish">
+              Estudiante autodidacta Full Stack, altamente motivado y orientado
+              a conseguir excelentes resultados dentro del sector de desarrollo
+              Web, me interesa desarrollarme como profesional en el area y busco
+              oportunidades y experiencias que me permitan hacerlo. He trabajado
+              con tecnologias tales como HTML,CSS,SASS,JAVASCRIPT,PHP,PYTHON.
+              Algunas de ellas no son mi fuerte pero si la experiencia o el
+              proyecto requiere de ellas puedo reforzar mas mi conocimiento
+            </p>
+
+            <a
+              href="./multimedia/CV Bryan Ramirez Ogando.pdf"
+              download="CV Bryan Ramirez Ogando.pdf"
+              >Descargar CV</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades">
+        <h2 class="text-centrado">Skills</h2>
+        <div class="contenido">
+          <div class="container">
+            <div class="contenido-grid">
+              <h3>HTML5</h3>
+              <img
+                src="./multimedia/icon_HTML.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>90%</p>
+            </div>
+
+            <article class="contenido-grid">
+              <h3>CSS3</h3>
+              <img
+                src="./multimedia/icon_CSS.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>90%</p>
+            </article>
+
+            <article class="contenido-grid">
+              <h3>SASS</h3>
+              <img
+                src="./multimedia/icon_SASS.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>100%</p>
+            </article>
+
+            <article class="contenido-grid">
+              <h3>JAVASCRIPT</h3>
+              <img
+                src="./multimedia/icon_JS.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>Currently learning</p>
+              <div class="barra"></div>
+            </article>
+
+            <article class="contenido-grid">
+              <h3>ReactJS</h3>
+              <img
+                src="./multimedia/icon_react.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>Soon</p>
+            </article>
+
+            <article class="contenido-grid">
+              <h3>NodeJS</h3>
+              <img
+                src="./multimedia/icon_nodeJS.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>40%</p>
+            </article>
+            <article class="contenido-grid">
+              <h3>TypeScript</h3>
+              <img
+                src="./multimedia/icon_TS.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>Soon</p>
+            </article>
+            <article class="contenido-grid">
+              <h3>SQL</h3>
+              <img
+                src="./multimedia/icon_sql.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>Soon</p>
+            </article>
+            <article class="contenido-grid">
+              <h3>MongoDB</h3>
+              <img
+                src="./multimedia/icon_mongoDB.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>Soon</p>
+            </article>
+            <article class="contenido-grid">
+              <h3>Python</h3>
+              <img
+                src="./multimedia/icon_py.svg"
+                alt="Imagen Perfil background"
+              />
+              <p>70%</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2 class="text-centrado">Contact Me</h2>
+        <div class="contenido-contacto">
+          <form action="" class="form">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Tu Nombre" required />
+
+            <label for="name">Last Name:</label>
+            <input type="text" placeholder="Tus Apellidos" required />
+
+            <label for="number">Number:</label>
+            <input type="tel" placeholder="example (555-860-9027)" required />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              placeholder="tuemail@emailaddress.com"
+              required
+            />
+
+            <label class="spanish" for="bio"
+              >Proporciona un poco mas de informacion acerca de lo que estas
+              interesados/as:</label
+            >
+
+            <label class="english" for="bio"
+              >Provide a little more information about what these
+              interested:</label
+            >
+
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Submit" class="btn-send" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="logo">
+          <a href="#header"><h3>BrokiDev</h3></a>
+        </div>
+
+        <nav class="navegacion">
+          <ul class="links">
+            <li>
+              <a href="#inicio" class="seleccionado" onclick="seleccionar(this)"
+                >Inicio</a
+              >
+            </li>
+            <li><a href="#sobremi" onclick="seleccionar(this)">Sobre Mi</a></li>
+            <li>
+              <a href="#habilidades" onclick="seleccionar(this)">Habilidades</a>
+            </li>
+            <li>
+              <a href="#contacto" onclick="seleccionar(this)">Contacto</a>
+            </li>
+
+            <div class="iconos">
+              <i
+                ><a href="https://github.com/BrokiDev" target="_blank"
+                  ><img
+                    src="./multimedia/icon_github.png"
+                    alt="icon_Github" /></a
+              ></i>
+              <i
+                ><a
+                  href="https://www.linkedin.com/in/bryan-ramirez-ogando/"
+                  target="_blank"
+                  ><img
+                    src="./multimedia/icon_linkedin.png"
+                    alt="icon-LinkedIn" /></a
+              ></i>
+            </div>
+          </ul>
+        </nav>
+      </div>
+      <p class="text-centrado spanish">
+        Todos derechos reservados &copy;<a
+          href="https://github.com/BrokiDev"
+          target="_blank"
+          >BrokiDev2023</a
+        >
+      </p>
+
+      <p class="text-centrado english">
+        All rights reserved &copy;<a
+          href="https://github.com/BrokiDev"
+          target="_blank"
+          >BrokiDev2023</a
+        >
+      </p>
+    </footer>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

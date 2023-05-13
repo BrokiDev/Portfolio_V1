@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px){
+    .header, .footer {
+     flex-direction: column;
+ 
+     .logo {
+         flex-direction: column;
+     }
+ 
+     .navegacion ul {
+         flex-direction: column;
+     }
+    }
+ 
+    .content-section a {
+     width: 200px;
+    }
+ 
+    .contenido {
+     flex-direction: column;
+ 
+         img {
+             width: 100%;
+         }
+
+         .biography {
+
+            a {
+                width: 200px;
+             }
+         }
+    }
+ 
+    .container {
+     display: flex;
+     flex-direction: column;
+    }
+
+    .contenido-contacto {
+        width: auto;
+    }
+
+    .form {
+        min-width: 200px;
+    }
+
+    input,textarea,label {
+        min-width: 200px;
+    }
+
+    .btn-send {
+        min-width: 200px;  
+    }
+ }

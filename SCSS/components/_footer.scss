@@ -1,0 +1,14 @@
+footer {
+    background-color: #04587b;
+    color: white;
+
+        a {
+            text-decoration: none;
+            color: #00bcf2;
+
+            &:hover {
+                text-decoration: underline;
+                color: white;
+            }
+        }
+}
