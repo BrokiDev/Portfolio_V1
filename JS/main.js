@@ -1,8 +1,3 @@
-function darkMode() {
-    let element = document.body;
-    element.classList.toggle("dark-mode");
-  }
-
   function seleccionar(link) {
     var opciones = document.querySelectorAll('.links  a');
     opciones[0].className = "";
@@ -13,19 +8,13 @@ function darkMode() {
     link.className = "seleccionado";
   }
 
- const english = document.querySelector('#english')
+ const darkMode = () => {
+    let element = document.body;
+    element.classList.toggle("dark-mode");
+  }
 
- english.addEventListener('click', () => {
-    document.body.classList.toggle('english')
-    english.classList.toggle('inactive')
- })
 
- 
- const spanish = document.querySelector('#spanish')
+ let dark = document.getElementById("dark")
 
- spanish.addEventListener('click', () => {
-    document.body.classList.toggle('spanish')
-    spanish.classList.toggle('inactive')
- })
-
+ dark.addEventListener("click", darkMode)
 
